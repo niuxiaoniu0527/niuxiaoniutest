@@ -13,6 +13,7 @@
 		09AAB2B81C9A3EB2007AE732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AAB2B61C9A3EB2007AE732 /* Main.storyboard */; };
 		09AAB2BA1C9A3EB2007AE732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AAB2B91C9A3EB2007AE732 /* Assets.xcassets */; };
 		09AAB2BD1C9A3EB2007AE732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AAB2BB1C9A3EB2007AE732 /* LaunchScreen.storyboard */; };
+		09AAB2C61C9A450E007AE732 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AAB2C51C9A450E007AE732 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		09AAB2B91C9A3EB2007AE732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09AAB2BC1C9A3EB2007AE732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09AAB2BE1C9A3EB2007AE732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AAB2C41C9A450E007AE732 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		09AAB2C51C9A450E007AE732 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				09AAB2B11C9A3EB2007AE732 /* AppDelegate.m */,
 				09AAB2B31C9A3EB2007AE732 /* ViewController.h */,
 				09AAB2B41C9A3EB2007AE732 /* ViewController.m */,
+				09AAB2C41C9A450E007AE732 /* MyViewController.h */,
+				09AAB2C51C9A450E007AE732 /* MyViewController.m */,
 				09AAB2B61C9A3EB2007AE732 /* Main.storyboard */,
 				09AAB2B91C9A3EB2007AE732 /* Assets.xcassets */,
 				09AAB2BB1C9A3EB2007AE732 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				09AAB2B51C9A3EB2007AE732 /* ViewController.m in Sources */,
 				09AAB2B21C9A3EB2007AE732 /* AppDelegate.m in Sources */,
+				09AAB2C61C9A450E007AE732 /* MyViewController.m in Sources */,
 				09AAB2AF1C9A3EB2007AE732 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
